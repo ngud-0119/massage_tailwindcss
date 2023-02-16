@@ -1,0 +1,46 @@
+stages: 
+  #- test
+  - deploy
+  #- build
+
+#build-dev: 
+#  image: "node:16"
+#  only:
+#   - test
+#  script: 
+#    - "npm install"
+#    - "npm run"
+#  stage: build
+
+# test-dev: 
+#   script: 
+#     - "echo \"Code is tested\""
+#   stage: test
+
+deploy-dev: 
+  before_script:
+    - "apk add --no-cache openssh"
+    - "mkdir -p ~/.ssh"
+    - "eval \"$(ssh-agent -s)\""
+    - "echo \"$SSH_PRIVATE_KEY\" | tr -d '\\r' | ssh-add -"
+    - "chmod 700 ~/.ssh"
+    - ssh-keyscan -H "$client" >> ~/.ssh/known_hosts
+  image: alpine
+  only: 
+    - staging
+  script: 
+    - pwd
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" 
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" set -f
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" sudo rm -rf /home/ubuntu/Body-slide/webapp-frontend
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" "cd /home/ubuntu/Body-slide && sudo git clone https://gitlab+deploy-token-1476714:cxEFjASgDgsvqvRKAuLs@gitlab.com/Codistan/bodyslides/webapp-frontend.git"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" "cd /home/ubuntu/Body-slide/webapp-frontend && sudo git checkout staging"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" sudo cp /home/ubuntu/enviornment/frontend/.env  /home/ubuntu/Body-slide/webapp-frontend/
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" echo "Running npm install"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" "cd /home/ubuntu/Body-slide/webapp-frontend && sudo yarn install"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" echo "Starting project build"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" "cd /home/ubuntu/Body-slide/webapp-frontend && sudo yarn run build"
+    - ssh -o StrictHostKeyChecking=no ubuntu@"$client" pm2 restart UI
+    
+  stage: deploy
+###

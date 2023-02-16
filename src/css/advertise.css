@@ -1,0 +1,278 @@
+.card-header-subContainer{
+  display: flex;
+  align-items: center;
+}
+.adv-left {
+  width: 500px;
+}
+
+.right {
+  text-align: right;
+}
+
+.adv-btn {
+  background: #c8175d;
+  box-shadow: 2.7px 2.7px 7.2px 1.8px rgb(0 0 0 / 5%);
+  border-radius: 6.3px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: capitalize !important;
+}
+
+.errorTextAdv {
+  color: #e30022;
+  font-size: 0.8em;
+  margin-top: 3%;
+  text-align: left;
+  /* margin: 0; */
+}
+
+.email-send-popup-text {
+  font-size: 1.5rem;
+  margin-top: 30%;
+  font-weight: 600;
+}
+
+.adv-left img {
+  width: 70vh;
+  height: 50vh;
+  float: right;
+}
+
+.avd-main-div {
+  margin: 10% auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 7% 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+.adv-hero-center {
+  background: #fff4f8;
+  border-radius: 18px;
+}
+
+.adv-center-heading {
+  font-family: "Open Sans";
+  font-: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 49px;
+  color: #c8175d;
+  margin: 20px 0;
+}
+
+.primary-color {
+  color: #c8175d;
+}
+
+.adv-smallbutton {
+  /* width: 100px; */
+}
+
+/* card */
+
+.adv-title {
+  font-family: "Open Sans";
+  font-: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 44px;
+  color: #c8175d;
+}
+
+.adv-subtitle {
+  font-family: "Open Sans";
+  font-: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+.advertise-label {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 2%;
+  font-weight: 500;
+}
+
+.adv-card {
+  box-shadow: none !important;
+}
+
+.adv-card .form-outline .form-control ~ .form-notch .form-notch-leading {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.adv-card .form-outline .form-control ~ .form-notch .form-notch-trailing {
+  border-radius: 0px 10px 10px 0px !important;
+}
+
+.send-model {
+  align-items: center;
+  justify-content: center;
+  display: flex !important;
+  top: 40%;
+}
+
+.adv-card #textAreaadv {
+  margin-top: 30px;
+}
+
+.adv-card .adv-smallbutton {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.adv-card {
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .post-trending-thread {
+    margin-top: 97px !important;
+  }
+  .trending-post-bottom {
+    display: none;
+  }
+  .view-detail-btn {
+    width: 87px;
+  }
+  .search-header-sub {
+    margin-top: 0px !important;
+    width: 87px !important;
+  }
+  .search-result-card {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .adv-left img {
+    width: 50vh;
+    display: none;
+  }
+  .adv-hero-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-adv-sec {
+    margin: 0;
+  }
+  .adv-card {
+    width: auto;
+  }
+  .adv-title {
+    font-size: 2rem;
+    line-height: 44px;
+  }
+  .adv-subtitle {
+    font-size: 1.1rem;
+  }
+  .avd-main-div {
+    padding: 7% 10%;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.container-fluid {
+  background-color: #f7dce7;
+  margin-top: 200px;
+}
+
+#advertisecol {
+  padding: 80px 0px;
+  padding-left: 100px;
+}
+
+.advertise {
+  color: #c8175d;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.flowerimg {
+  text-align: right;
+  margin-top: -200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.adv-image-sec {
+  padding: 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.letstalk {
+  background-color: #c8175d;
+  color: white;
+  border: 1px solid #c8175d;
+  font-size: 20px;
+  padding: 5px 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .flowerimg {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  #advertisecol {
+    padding: 50px 0px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .submitRequest {
+    margin-top: 20px;
+    background-color: #c01c5b;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #c01c5b;
+    color: white;
+  }
+  .adrequest {
+    text-align: center;
+  }
+  .card-advertiser {
+  }
+}
+@media screen and (min-width: 600px) {
+  .submitRequest {
+    float: right;
+    margin-top: 20px;
+    background-color: #c01c5b;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #c01c5b;
+    color: white;
+    margin-right: 60px;
+  }
+  .card-advertiser {
+    -webkit-box-shadow: 0px 0px 20px -4px rgba(192, 28, 91, 1);
+    -moz-box-shadow: 0px 0px 20px -4px rgba(192, 28, 91, 1);
+    box-shadow: 0px 0px 12px -4px rgba(192, 28, 91, 1) !important;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 985px;
+    padding-bottom: 34px;
+  }
+}

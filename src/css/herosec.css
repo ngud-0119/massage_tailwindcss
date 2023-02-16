@@ -1,0 +1,184 @@
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 50vh; */
+
+  /* Before it was working smoothy, but now was not working so then I comment z-index and it's working now  */
+
+  /* z-index: -1; */
+}
+
+.hero-right {
+  background-image: url("../assets/hero-side-img.png");
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* height: 60vh; */
+}
+
+.heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.7rem;
+  line-height: 4rem;
+  color: #000000;
+}
+
+.input-group > .form-control:focus,
+.input-group > .form-select:focus {
+  z-index: -1;
+}
+
+.input-group > .form-control {
+  /* min-height: calc(1.75rem + 0.33rem + 2px); */
+  /* height: calc(1.75rem + 0.33rem + 2px); */
+  padding-top: 0.27rem;
+  padding-bottom: 0.27rem;
+  transition: all 0.2s linear;
+  padding-right: 25px;
+  margin-right: 0px;
+  border: none;
+  /* height: 50px; */
+}
+
+.forumn-src {
+  padding: 0px 70px;
+}
+
+.forumn-src .input-group {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.forumn-src input {
+  background: #f0f0f0;
+}
+
+.btn-create-post {
+  background: #c8175d00 !important;
+  color: #c8175d !important;
+  border: #c8175d solid 1px !important;
+  /* padding: 8px 35px; */
+  margin-left: 20px !important;
+  border-radius: 5px !important;
+}
+
+.btn {
+  background: #c8175d;
+  box-shadow: 2.7px 2.7px 7.2px 1.8px rgba(0, 0, 0, 0.05);
+  border-radius: 6.3px;
+  color: white;
+}
+
+.search-select {
+  width: 100px;
+  background: #fff;
+  border: none;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.input-group {
+  width: 80%;
+  /* margin-left: 10vh; */
+  margin-top: 80px;
+}
+
+.left-side {
+  padding: 5% 5% 7% 5%;
+}
+
+.bottomImge {
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.bottom-banner {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.bottom-left h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 4vh;
+  text-align: left;
+  font-weight: 700;
+}
+
+.b-heading {
+  color: #000000;
+}
+
+.bottom {
+  padding: 0 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .left-side {
+    margin-top: 84px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    /* margin-bottom: 60px; */
+  }
+  .heading {
+    line-height: 2rem;
+  }
+  .input-group {
+    width: 100% !important;
+    margin: 0;
+  }
+  .heading {
+    margin-left: auto;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-expand-lg .navbar-nav {
+    margin-left: 0px !important;
+    line-height: 0px !important;
+  }
+  .bottomImge {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+  }
+  p {
+    text-align: justify;
+    font-size: smaller;
+  }
+  .b-heading {
+    font-size: 20px !important;
+  }
+  .home-left-side {
+    background-image: url("../assets/hero-side-img.png");
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .spa-left-side {
+    background-image: url("../assets/spa-still-life-with-beauty-products-1.png");
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hero-right {
+    height: 35vh;
+  }
+  .messeuse-left-side {
+    background-image: url("../assets/image-14.png");
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

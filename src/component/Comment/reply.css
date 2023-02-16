@@ -1,0 +1,35 @@
+
+#thumicon:hover {
+    color:rgb(44, 44, 44) !important;
+    color: #999;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+#thumicon {
+    color: #999;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.reply-group:hover #replyicon{
+    color:rgb(44, 44, 44) !important;
+}
+
+.reply-group:hover #reply-text{
+    text-decoration: underline;
+    color:rgb(44, 44, 44) !important;
+}
+.reply-group:hover #delete-icon{
+    opacity: 5 !important;
+}
+
+.reply-group:hover #edit-icon{
+    opacity: 5 !important;
+}
+
+.like-count {
+    font-size: 14px;
+    color: #0f91ff;
+    margin-top: 5px;
+}

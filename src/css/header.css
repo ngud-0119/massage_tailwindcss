@@ -1,0 +1,216 @@
+.h-logo {
+  width: 90px;
+}
+
+.h-inline {
+  float: right;
+  background: none;
+}
+
+.h-inline .dropdown-toggle::after {
+  display: none;
+}
+
+.h-userImg {
+  background-color: #c8175d;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px;
+  font-weight: 900;
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.7;
+}
+
+.topRight a.active {
+  background: none !important;
+}
+
+.h-link a.active {
+  background: rgba(200, 23, 93, 0.1);
+  border-bottom: solid 2px #c8175d;
+  color: #c8175d !important;
+  font-weight: 1000 !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+  margin-left: 80px;
+}
+
+.h-bg {
+  background: #ffffff;
+  box-shadow: 3.6px 3.6px 39.6px rgba(0, 0, 0, 0.15);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 52px;
+}
+
+/* .active {
+	background: rgba(200, 23, 93, 0.1);
+	border-bottom: solid 2px #c8175d;
+} */
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #16181b;
+  background: rgba(200, 23, 93, 0.1);
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  padding: 1rem 1rem;
+  margin-top: 0px;
+}
+
+.dropdown-menu.show {
+  margin-left: -166px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 10px 5px;
+}
+
+.h-inline button {
+  background: none;
+  box-shadow: none;
+}
+
+.h-inline button:hover {
+  background: none;
+  box-shadow: none;
+}
+
+.h-inline button:active {
+  background: none;
+  box-shadow: none;
+}
+
+.h-inline button:focus {
+  background: none;
+  box-shadow: none;
+  border-color: #fff;
+}
+
+.navbar-setting {
+  padding: 0 60px;
+}
+
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background: none;
+}
+
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  color: #c8175d;
+  font-size: 20px;
+}
+
+.h-container {
+  display: flex;
+  justify-content: center;
+}
+
+.h-link a {
+  /* padding: 20px 30px; */
+  color: #16181b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  padding: 28px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.user-name {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #c8175d;
+  text-align: center;
+}
+
+.popup-account {
+  padding-top: 14px;
+  margin-left: -35px;
+}
+
+@media screen and (min-width: 1500px) {
+  .home-page-search {
+    width: 76% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-small{
+    height: 24px !important;
+    padding: 6px 13px !important;
+  }
+  .dropdown-menu.show {
+    margin-left: -104px;
+    margin-top: 8px;
+    border-radius: 12px;
+    padding: 20px 10px;
+  }
+  .navbar-setting {
+    padding: 10px 10px;
+    /* min-height: 59px; */
+  }
+  .mobile-menu {
+    position: absolute;
+    background: white;
+    top: 0px;
+    z-index: 10000;
+  }
+  .popup-account {
+    margin-left: 0;
+  }
+  .popup-main-account {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mobile-menu {
+    position: absolute;
+    background: white;
+    top: 0px;
+    z-index: 10000;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .heading {
+    font-size: 2rem;
+    margin-top: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .h-logo {
+    width: 90px;
+    display: none !important;
+  }
+  .singleSpa-createPost {
+    display: none !important;
+  }
+}

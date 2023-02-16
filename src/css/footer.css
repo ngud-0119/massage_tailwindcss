@@ -1,0 +1,110 @@
+.footer {
+    padding-top: 2%;
+    margin-top: auto;
+    width: 100%;
+    /* Height of the footer*/
+    background-color: #c8175d;
+}
+
+.pb-2p {
+    padding-bottom: 2%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.bottom-footer {
+    border-top: 0.9px solid #ffffff75;
+    padding: 1%;
+}
+
+.bottom-footer>p {
+    font-size: 0.9rem;
+}
+
+.f-logo {
+    width: 50%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.vl {
+    display: inline-block;
+    border-right: 2px solid #ccc;
+    margin: 0 10px;
+    height: 185px;
+}
+
+.footer li {
+    text-align: left;
+    line-height: 2rem;
+}
+
+.footer-headings {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize !important;
+    letter-spacing: 1px;
+    /* margin: 5%; */
+    text-align: left;
+}
+
+.aboutus {
+    margin-top: 30px;
+    margin-left: -100px;
+}
+
+.solid-border {
+    border-right-width: 2px;
+    border-right-color: #fff;
+    border-right-style: double;
+}
+
+.Quicklinks {
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.toolMore {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.advertise {
+    margin-top: 30px;
+}
+
+.footer-menu-div {
+    margin-top: 1.5%;
+}
+
+.footer-menu-div>ul>li>a {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .solid-border {
+        border-right: none;
+        height: 40px;
+        padding-top: 12px;
+    }
+    .bottom-footer>p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer-menu-div {
+        margin-top: 1.5%;
+        display: flex;
+        justify-content: center;
+    }
+    .f-logo {
+        width: 31%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,8 @@
+.view-detail:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.view-detail{
+    color: #000000;
+    text-decoration: none;
+}

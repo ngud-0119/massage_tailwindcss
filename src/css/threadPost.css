@@ -1,0 +1,154 @@
+.ql-container.ql-snow {
+  border: 1px solid #c8175d;
+}
+.ql-toolbar.ql-snow {
+  border: 1px solid #c8175d;
+}
+
+.thread-post {
+  background: "#FFFFFF",
+}
+
+.thread--header {
+  align-items: left !important;
+}
+
+.reply-container {
+  gap: 0px;
+  padding: 0px;
+}
+@media (min-width: 800px) {
+  .reply-container {
+    gap: 20px;
+    padding: 12px
+  }
+}
+
+.reply-btn {
+  background: none;
+  border: none;
+}
+
+.comment {
+  border-left: 10px solid #99b6dc;
+  background-color: #f0f4fa;
+  padding: 8px;
+  margin: 0px 10px;
+  margin-left: 22px;
+  margin-bottom: 20px;
+  margin-top: 22px;
+}
+
+
+@media (min-width: 768px) {
+  .thread--header {
+    align-items: center !important;
+    background-color: rgb(192, 28, 91) !important;
+    padding-left: 20px;
+  }
+}
+
+.comment--header {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .comment--header {
+    display: flex !important;
+    align-items: center;
+    background-color: rgb(192, 28, 91) !important;
+    padding-left: 20px;
+  }
+}
+.thread-info {
+  display: none;
+}
+@media (min-width: 768px) {
+  .thread-info {
+    display: block;
+  }
+}
+
+.text-data {
+  display: none;
+  /* margin-left: 10px; */
+}
+
+@media (min-width: 768px) {
+  .text-data {
+    display: inline;
+  }
+}
+
+.user-data {
+  display: flex;
+  justify-content: left;
+}
+@media (min-width: 768px) {
+  .user-data {
+    display: none;
+  }
+}
+.thread-body-response {
+  border: 0px;
+}
+@media (min-width: 768px) {
+  .thread-body-response {
+    display: flex; 
+    border:1px solid #e2e2e2;
+  }
+}
+
+.reply-bar{
+  width: 100%;
+  background-color: #c8175d;
+  color:white;
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .reply-bar {
+    display: none;
+  }
+}
+
+.forumComment {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+@media (min-width: 425px) {
+  .forumComment {
+    margin: 0px;
+    height: 172px;
+  }
+}
+
+.forumComment-add {
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 150px;
+}
+
+@media (min-width: 425px) {
+  .forumComment-add {
+    margin: 0px;
+    height: 180px;
+  }
+}
+
+/* 
+forumComment-add */
+
+/* @media (max-width: 768px) {
+  .thread-body-padding {
+    padding: 0px;
+  }
+} */
+/* @media (max-width: 768px) {
+  .daysCount-flex {
+    margin-bottom: 0px !important;
+  } 
+} */
+

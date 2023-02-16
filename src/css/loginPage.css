@@ -1,0 +1,649 @@
+body {
+  font-family: "Open Sans";
+  height: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.MuiOutlinedInput-input:focused:focus {
+  color: black !important;
+}
+
+.checkbox-width {
+  width: 8%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: hide;
+}
+
+.errorText {
+  color: #e30022;
+  font-size: 0.8em;
+  margin-top: 1%;
+  width: 249px;
+  font-weight: 600;
+  text-align: left;
+  /* margin: 0; */
+}
+
+/* removeable */
+
+button a {
+  color: #fff;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+.forgotpassword a {
+  color: #c8175d;
+  margin-top: 3px;
+  font-size: 1rem;
+}
+
+.back-icon {
+  float: left;
+  margin-right: auto;
+  padding: 5% 30px;
+  cursor: pointer;
+}
+
+.custom-cardBody {
+  /* padding: 10.5rem 5.5rem 14.5rem 5.5rem !important; */
+  padding: 2.5rem 5.5rem 1.5rem 5.5rem !important;
+}
+
+/* end removeable */
+
+.form {
+  width: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-signup {
+  width: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-outline .form-control ~ .form-notch div {
+  border-color: #c8175d !important;
+}
+
+.form-outline .form-control:focus ~ .form-notch div.form-notch-middle,
+.form-outline .form-control.active ~ .form-notch div.form-notch-middle {
+  border-top-color: transparent !important;
+}
+
+.form-outline .form-control:focus ~ .form-label {
+  color: #000 !important;
+}
+
+input {
+  height: 40px;
+  /* border-radius: 40px; */
+}
+
+.card {
+  /* border-radius: 2.5rem; */
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-trailing {
+  /* border-radius: 0px 50px 50px 0px !important; */
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-leading {
+  width: 1.5rem;
+  /* border-radius: 50px 0px 0px 50px; */
+}
+
+.form-outline .form-control ~ .form-label {
+  left: 1.75rem;
+}
+
+label {
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.login-form-left {
+  background-color: #c8175d;
+  color: white;
+  margin: 0px;
+}
+
+.btn-primary {
+  background-color: #c8175d;
+}
+
+a:hover {
+  color: #eb337d;
+}
+
+.btn-primary:hover {
+  background-color: #eb337d;
+}
+
+.left-side-design-img {
+  width: 35vh;
+  bottom: 0;
+  position: absolute;
+  left: 30vw;
+}
+
+.login-form-left {
+  background: url("../assets/left-login.png") #c8175d;
+  /* background-position-x: 0%;
+    background-position-y: 0%; */
+  background-repeat: repeat;
+  /* background-size: auto; */
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 260px;
+  margin: 0;
+}
+
+.login-form-left .logo {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  width: 25vh;
+}
+
+.login-form-left h1 {
+  margin-top: 8vh;
+}
+
+.login-form-left h1 {
+  font-family: "Open Sans";
+  font-size: 2.8rem;
+  font-weight: 800;
+  font-size: 800;
+}
+
+.login-form-left p {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 500px;
+}
+
+.login-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn-div button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.login-form-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-heading {
+  font-size: 2rem;
+  font-weight: bolder !important;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #323233;
+}
+
+.auth-btn {
+  background: #c8175d;
+  box-shadow: 2.7px 2.7px 7.2px 1.8px rgb(0 0 0 / 5%);
+  border-radius: 6.3px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: capitalize !important;
+}
+.auth-btn-signup {
+  background: #c8175d;
+  box-shadow: 2.7px 2.7px 7.2px 1.8px rgb(0 0 0 / 5%);
+  border-radius: 6.3px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: capitalize !important;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.auth-links {
+  color: #1346a8;
+  /* text-decoration: underline; */
+  /* font-weight: 600; */
+}
+
+.signup-terms {
+  font-size: 14px;
+  text-align: left;
+  width: 85%;
+}
+
+.login-page {
+  height: 100vh;
+}
+
+.card-body {
+  padding: 6.5rem 5.5rem !important;
+}
+
+.card {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13) !important;
+}
+
+.sign-in-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 54px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* .input-filed {
+    border: 1.67px solid #C8175D;
+
+} */
+
+.forgotpassword {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #c8175d;
+  margin-top: 0;
+}
+
+a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.form-check-label {
+  font-size: 12px;
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: #c8175d;
+}
+
+.form-check-input:checked {
+  border-color: #c8175d;
+}
+
+.form-check-input {
+  border-color: #c8175d;
+}
+
+.form-check-input[type="checkbox"]:focus {
+  border-color: #c8175d;
+}
+
+.form-check-input[type="checkbox"]:checked:focus {
+  background-color: #c8175d;
+  border-color: #c8175d;
+}
+
+/* email Page */
+
+.email-form-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-form-right h5 {
+  font-size: 3vh;
+  margin-bottom: 40px;
+}
+
+.emailText {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.email-form-right .card-text {
+  font-size: 13px;
+  text-align: center;
+}
+
+/* media Queries */
+
+@media screen and (min-width: 1440px) {
+  .forgot-password {
+    text-align: right;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .card-body {
+    padding: 7.5rem 5.5rem !important;
+  }
+  .forgot-password {
+    text-align: right;
+    margin-left: -90px;
+    margin-top: 10px;
+  }
+}
+
+/* small laptops 1366 */
+
+@media screen and (max-width: 1366px) {
+  .forgot-password {
+    text-align: right;
+    /* margin-left: 58px; */
+    margin-top: 10px;
+  }
+  body {
+    /* overflow: hidden; */
+    font-family: "Open Sans";
+    height: 100%;
+  }
+  .card-body {
+    padding: 6.5rem 6.5rem !important;
+  }
+  .form {
+    /* width: 40vh !important; */
+  }
+  .signup-page .card-body {
+    padding: 3.5rem 5.5rem !important;
+  }
+  .signup-page h5 {
+    font-size: 21px;
+    margin-bottom: 45px;
+  }
+  /* .signup-terms {
+		font-size: 9px;
+	} */
+  .email-form-right h5 {
+    font-size: 21px;
+    font-weight: bolder !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .login-form-right h5,
+  .auth-heading {
+    font-size: 2rem;
+    font-weight: bolder !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    /* overflow: hidden; */
+    font-family: "Open Sans";
+    height: 100%;
+  }
+  .baseClass {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px !important;
+  }
+
+  .login-form-right h5,
+  .auth-heading {
+    font-size: 1rem;
+    font-weight: bold !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .auth-btn {
+    width: 84px;
+    padding: 5px 0px;
+    background: #c8175d;
+    box-shadow: 2.7px 2.7px 7.2px 1.8px rgb(0 0 0 / 5%);
+    border-radius: 6.3px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: capitalize !important;
+  }
+  .auth-btn-signup {
+    width: 84px;
+    padding: 5px 0px;
+    background: #c8175d;
+    box-shadow: 2.7px 2.7px 7.2px 1.8px rgb(0 0 0 / 5%);
+    border-radius: 6.3px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: capitalize !important;
+    margin-right: 32px;
+  }
+
+  .login-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+  }
+  .forgotpassword a {
+    color: #c8175d;
+    margin-top: 3px;
+    font-size: 15px;
+  }
+  .login-form-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    box-shadow: none !important;
+  }
+  .errorText {
+    color: #e30022;
+    font-size: 0.7em;
+    margin-top: 1%;
+    width: 249px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .forgotpassword {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #c8175d;
+    margin-top: 0;
+  }
+  .form-signup {
+    width: 100%;
+    margin-left: 12px;
+  }
+  .email-form-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+}
+
+.forgotPassword-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 28px;
+  text-align: center;
+  color: #323233;
+}
+
+/* .auth-btn {
+	width: 105px;
+} */
+
+/* mobile devices 768 */
+
+@media screen and (max-width: 769px) {
+  .forgot-password {
+    text-align: right;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .signup-page .form-outline {
+    width: 245px;
+    margin-left: 10px;
+  }
+  .signup-page .half-input .form-outline {
+    width: 100%;
+    margin-left: -2px;
+  }
+  /* .login-form-left {
+		height: 52vh;
+	} */
+  .login-form-left {
+    display: none;
+  }
+  .login-form-left .logo {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 10vh;
+  }
+  .login-form-left h1 {
+    margin-top: 5vh;
+    font-size: 26px;
+  }
+  .login-form-left p {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  .left-side-design-img {
+    margin-top: -20px;
+    width: 12vh;
+  }
+  .card {
+    /* margin-top: 30px; */
+  }
+  .form {
+    /* width: 40vh; */
+  }
+  .card-body,
+  .custom-cardBody {
+    padding: 8.5rem 2.5rem !important;
+  }
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #c8175d;
+}
+
+.verification input {
+  width: 50px;
+}
+
+.verification {
+  display: inline-flex;
+}
+
+.verification .form-outline {
+  margin-left: 10px;
+}
+
+/* .form-outline .form-control {
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+} */
+
+.eyeicon-pass {
+  float: right;
+  margin-top: -28px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 6%;
+}
+
+.passwordgroup {
+  display: inline;
+}
+@media screen and (min-width: 600px) {
+  .baseClass {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
